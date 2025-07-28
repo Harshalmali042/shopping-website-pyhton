@@ -14,7 +14,8 @@
 ```markdown
 # 🛍️ Minimalist Shopping Website (Flask + Python)
 
-A minimalistic and aesthetic shopping website built using **Flask** (Python). This project demonstrates a simple but elegant ecommerce interface with a focus on clean design, usability, and maintainability.
+A minimalistic and aesthetic shopping website built using **Flask** (Python).
+This project demonstrates a simple but elegant ecommerce interface with a focus on clean design, usability, and maintainability.
 
 ---
 
@@ -70,7 +71,7 @@ shopping-website/
 │
 └── README.md                # Project documentation
 ```
-```
+
 
 ---
 
@@ -122,31 +123,4 @@ docker run -p 5000:5000 shopping-website
 
 ---
 
-## 🖼️ Screenshots
 
-> Replace these with real screenshots once hosted or tested locally
-
-| Homepage                                | Product Detail                                |
-| --------------------------------------- | --------------------------------------------- |
-| ![Home](static/images/home-preview.png) | ![Product](static/images/product-preview.png) |
-
----
-
-## 📧 Contact
-
-Made by \[Your Name]
-📬 Email: `support@shopifylite.com`
-🔗 GitHub: [github.com/your-username](https://github.com/your-username)
-
----
-
-## 📝 License
-
-This project is open-source under the [MIT License](LICENSE).
-
-```
-
----
-
-Would you like me to add this `README.md` to your zip and regenerate it?
-```
