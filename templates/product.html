@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <img src="{{ url_for('static', filename='images/' + product[4]) }}" alt="{{ product[1] }}">
+    <h2>{{ product[1] }}</h2>
+    <p>{{ product[2] }}</p>
+    <h3>${{ product[3] }}</h3>
+</div>
+{% endblock %}
