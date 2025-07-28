@@ -41,7 +41,7 @@ A minimalistic and aesthetic shopping website built using **Flask** (Python). Th
 ## 📁 Project Structure
 
 ```
-
+```
 shopping-website/
 │
 ├── app.py                   # Flask application entry point
@@ -69,8 +69,8 @@ shopping-website/
 │   └── products.db          # SQLite database file
 │
 └── README.md                # Project documentation
-
-````
+```
+```
 
 ---
 
@@ -81,7 +81,7 @@ shopping-website/
 ```bash
 git clone https://github.com/your-username/shopping-website.git
 cd shopping-website
-````
+```
 
 ### 2. Setup Virtual Environment
 
