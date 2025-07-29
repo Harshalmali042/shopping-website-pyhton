@@ -17,3 +17,8 @@ spec:
         image: shopping-website
         ports:
         - containerPort: 5000
+      spec:
+  containers:
+    - name: shopping
+      image: your-dockerhub-Harshalmali02/shopping-website-pyhton
+
