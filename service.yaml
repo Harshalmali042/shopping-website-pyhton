@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: shopping-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: shopping
   ports:
