@@ -20,5 +20,5 @@ spec:
       spec:
   containers:
     - name: shopping
-      image: your-dockerhub-Harshalmali02/shopping-website-pyhton
+      image: your-dockerhub-harshalmali02/shopping-website-pyhton
 
