@@ -13,12 +13,8 @@ spec:
         app: shopping
     spec:
       containers:
-      - name: shopping
-        image: shopping-website
-        ports:
-        - containerPort: 5000
-      spec:
-  containers:
-    - name: shopping
-      image: your-dockerhub-harshalmali02/shopping-website-pyhton
+        - name: shopping
+          image: harshalmali02/shopping-website-python  # ← replace with your correct Docker Hub image
+          ports:
+            - containerPort: 5000
 
