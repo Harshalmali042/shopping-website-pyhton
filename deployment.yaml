@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: shopping-deployment
+  labels:
+    app: shopping
 spec:
   replicas: 1
   selector:
@@ -14,8 +16,7 @@ spec:
     spec:
       containers:
         - name: shopping
-          image: harshalmali02/shopping-website-python  # ← replace with your correct Docker Hub image
+          image: shopping-website:latest   # Local image tag (build inside minikube)
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
-
