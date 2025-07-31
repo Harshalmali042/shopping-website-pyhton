@@ -3,14 +3,14 @@ kind: Service
 metadata:
   name: shopping-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: shopping
   ports:
-   - protocol: TCP
-     port: 5000
-     targetPort: 5000
-     nodePort: 30080
+    - port: 80
+      targetPort: 5000
+  type : ClusterIP
+
 
 
 
