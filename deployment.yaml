@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: shopping
-          image: shopping-website:latest   # Local image tag (build inside minikube)
+          image:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
